@@ -3,7 +3,8 @@ baseurl: /agency-jekyll-theme/
 
 # Site settings
 title: The Wrong Songs
-email: your-email@domain.com
+email: erwin@thewrongsongs.com
+phone: +31 (0)6 38 53 73 25
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 # Color settings (hex-codes without the leading hash-tag)
