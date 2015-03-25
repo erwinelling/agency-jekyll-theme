@@ -1,11 +1,11 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://erwinelling.github.io/thewrongsongs.com/
+baseurl: /
 
 # Site settings
 title: The Wrong Songs
 email: erwin@thewrongsongs.com
 phone: +31 (0)6 38 53 73 25
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "The Wrong Songs is een bureau voor online strategie in Utrecht."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
