@@ -9,9 +9,10 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: fed136
-  secondary: fec503  
-  secondary-dark: 333
+  primary: 2B99BF
+  secondary: 1C667F
+  secondary-dark: 262626
+  darkestbackground: 262626
 
 # Team names, titles and social links
 people:

@@ -19,12 +19,12 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.75;
 }
 
-p.large {
-    font-size: 16px;
+p.large, ul.large {
+    font-size: 20px;
 }
 
 a,
@@ -197,7 +197,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #{{ site.color.darkestbackground }};
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -233,7 +233,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 5px 0;
         border: 0;
         background-color: transparent;
         -webkit-transition: padding .3s;
@@ -242,31 +242,32 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 1em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
     }
 
     .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
+/*        border-radius: 3px;*/
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #222;
+/*        padding: 10px 0;*/
+        background-color: #{{ site.color.darkestbackground }};
     }
 
-    .navbar-default.navbar-shrink .navbar-brand {
+/*    .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
-}
+*/}
 
 header {
     text-align: center;
-    color: #000;
+    color: #fff;
     background-attachment: scroll;
 /*    background-image: url(../img/header-bg.jpg);*/
+    background-color: #{{ site.color.darkestbackground }};
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -295,6 +296,15 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+}
+
+#arrow {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 7s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-duration: 3s;
+  -moz-animation-delay: 7s;
+  -moz-animation-iteration-count: infinite;
 }
 
 @media(min-width:768px) {
@@ -861,4 +871,24 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
+}
+
+#vxl {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/header-bg.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+@media(min-width:768px) {
+    #vxl .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
 }
